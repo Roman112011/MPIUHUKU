@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #9100ff, #783bd9, #0905ff);
+}
+.menu{
+    background: linear-gradient(to right,  #f600ff, #233abd, #05e3ff);
+    height: 38px;
+    position: fixed;
+    width: 100%;
+}
+h1{
+    margin: 0;
+}
+.h1{
+    display: inline;
+}
+.menu1{
+    display: inline;
+}
+.text{
+    font-size: 30px; 
+    list-style: menudown url("photo/menudown.png");
+}
+ol{
+	list-style: none;
+	margin: 0;
+}
+.dropdown {
+    position: relative;
+	display: inline-block;
+	
+}
+.dropdown-href {
+    display: none;
+    background-color: violet;
+    max-width: 300px;
+	text-align:center;
+}
+.dropdown-href a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-href {
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+	position: absolute;
+	padding: 0;
+	left: 20%;
+	z-index: 4;
+}
+.menuhover:hover{
+    background: cornflowerblue;
+    color: gold;
+}
+.title{
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 4mm ridge rgba(243, 77, 0, 0.6);
+}
+.text1{
+    display: inline;
+    color: red;
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+.block-text1{
+    float: left;
+    margin-top: 60px;
+    height: auto;
+}
+.block-img1{
+}
+.text2{
+    float: left;
+    color: goldenrod;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+@media screen and (min-width: 350px;){
+    .text2{
+        font-size: 17px ;
+    }
+}
